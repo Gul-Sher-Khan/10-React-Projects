@@ -1,0 +1,136 @@
+.p3-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.p3-title {
+  font-size: 1.25em;
+  margin: 0;
+  padding: 0;
+}
+
+.p3-underline {
+  position: relative;
+  left: 30px;
+  width: 100px;
+  height: 5px;
+  background-color: rgb(3, 185, 136);
+  margin: 0;
+  padding: 0;
+}
+.p3-reviews {
+  margin-top: 20px;
+  width: 90%;
+  width: 450px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 2rem 0 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  color: #333333;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.person-img {
+  position: relative;
+  left: 10px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+  box-shadow: 5px -5px 10px rgba(7, 182, 209, 0.864);
+}
+
+.quote-icon {
+  position: relative;
+  top: -150px;
+  left: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgb(7, 182, 209, 0.864);
+  color: white;
+}
+
+.author {
+  position: relative;
+  top: -30px;
+  margin-top: 0rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.864);
+}
+
+.job {
+  color: rgba(7, 182, 209, 0.864);
+  position: relative;
+  top: -50px;
+  margin-top: 0.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.info {
+  position: relative;
+  top: -70px;
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.864);
+}
+
+.p3-btn-container {
+  position: relative;
+  align-self: center;
+  top: -90px;
+  left: 90px;
+  margin-top: 1rem;
+  display: flex;
+  width: 100%;
+}
+
+.prev-btn,
+.next-btn {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: rgba(255, 255, 255, 0.864);
+  color: rgba(7, 182, 209, 0.864);
+  display: grid;
+  place-items: center;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  border: none;
+}
+.rand-btn {
+  width: 5rem;
+  height: 2.5rem;
+  background: rgba(255, 255, 255, 0.864);
+  color: rgba(7, 182, 209, 0.864);
+  display: grid;
+  place-items: center;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  border: none;
+  font-weight: bold;
+}
+
+.prev-btn:hover,
+.next-btn:hover,
+.rand-btn:hover {
+  background: rgba(7, 182, 209, 0.864);
+  color: white;
+}

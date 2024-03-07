@@ -1,0 +1,71 @@
+/* P8.css */
+
+/* Section styles */
+.p8-section {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  text-align: center;
+  max-width: 700px;
+  margin-top: 50px;
+  margin-left: 600px;
+}
+
+/* Header styles */
+.p8-section h3 {
+  color: #009966; /* Dark green text color */
+  font-size: 50px;
+}
+
+/* Form styles */
+.lorem-form {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.lorem-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #009966; /* Dark green text color */
+  font-size: 20px;
+}
+
+.lorem-form input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid #009966; /* Dark green border */
+  border-radius: 5px;
+  height: 20px;
+}
+
+.p8-btn {
+  background-color: #009966; /* Dark green button background */
+  color: #ffffff; /* White button text color */
+  border: none;
+  padding: 8px 16px;
+  margin-top: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.p8-btn:hover {
+  background-color: #007755; /* Lighter green on hover */
+}
+
+/* Article styles */
+.lorem-text {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.lorem-text p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: #333; /* Dark gray text color */
+}

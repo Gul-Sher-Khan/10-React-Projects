@@ -1,0 +1,125 @@
+/* App.css */
+
+/* Base styles */
+.p9-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f0f0f0;
+}
+
+.p9-container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.p9-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #aaa;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  width: 200px; /* Adjust the width as needed */
+  height: 50px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.color-input:focus {
+  border-color: #ff6b6b; /* Highlight on focus with a different color */
+  box-shadow: 0 0 5px rgba(255, 107, 107, 0.5); /* Add a subtle box shadow */
+}
+.error-input {
+  /* Keep common input styles */
+  border-color: #00ff6a; /* Red border for error */
+}
+
+/* Updated button styles */
+.p9-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.p9-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Updated single color display styles */
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.single-color {
+  width: 150px;
+  height: 150px;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column; /* Display text in a column */
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%; /* Circular shape */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1e1e1e; /* Blue text */
+  transition: transform 0.2s ease;
+  text-align: center; /* Center-align text horizontally */
+  writing-mode: horizontal; /* Vertical text layout */
+}
+
+.single-color:hover {
+  transform: scale(1.05); /* Slight scale on hover */
+}
+
+.single-color span {
+  margin-left: 0.5rem;
+}
+
+.color-light {
+  width: 150px;
+  height: 150px;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column; /* Display text in a column */
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%; /* Circular shape */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #cbcaca; /* Blue text */
+  transition: transform 0.2s ease;
+  text-align: center; /* Center-align text horizontally */
+  writing-mode: horizontal; /* Vertical text layout */
+}
+
+.single-color:hover {
+  transform: scale(1.05); /* Slight scale on hover */
+}
+
+.single-color span {
+  margin-left: 0.5rem;
+}
+
+/* Error message */
+.error-message {
+  color: #ff0000;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
